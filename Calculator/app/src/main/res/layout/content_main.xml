@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainRedBox"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000">
+    <LinearLayout
+        android:id="@+id/bigGreenBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        android:layout_weight="2"
+        android:layout_margin="15dp">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText"
+            android:layout_weight="1"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="x"
+            android:layout_gravity="center"
+            android:id="@+id/buttonC" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bigBlueBox"
+        android:background="#000"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="10"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp">
+        <LinearLayout
+            android:id="@+id/orangeBox1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#000"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="sin"
+                android:textAllCaps="false"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="cos"
+                android:textAllCaps="false"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="tan"
+                android:textAllCaps="false"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="π"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="!"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/orangeBox2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:background="#000"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="ln"
+                android:textAllCaps="false"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                android:text="log"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="e"
+                android:textAllCaps="false"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="^"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="√"
+                style="@style/yolo"
+                android:layout_margin="1dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/blackBox"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="11"
+            android:background="#000"
+            android:orientation="horizontal">
+                <LinearLayout
+                    android:id="@+id/greenBox1"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="9"
+                        style="@style/yoloness"
+                        android:id="@+id/button9" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="6"
+                        style="@style/yoloness"
+                        android:id="@+id/button6" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="3"
+                        style="@style/yoloness"
+                        android:id="@+id/button3" />
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="."
+                        style="@style/yoloness"
+                        android:id="@+id/buttondot" />
+
+
+                </LinearLayout>
+            <LinearLayout
+                android:id="@+id/greenBox2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="8"
+                    style="@style/yoloness"
+                    android:id="@+id/button8" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="5"
+                    style="@style/yoloness"
+                    android:id="@+id/button5" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="2"
+                    style="@style/yoloness"
+                    android:id="@+id/button2" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="0"
+                    style="@style/yoloness"
+                    android:id="@+id/button0" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/greenBox3"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="7"
+                    style="@style/yoloness"
+                    android:id="@+id/button7" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="4"
+                    style="@style/yoloness"
+                    android:id="@+id/button4" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="1"
+                    style="@style/yoloness"
+                    android:id="@+id/button1" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="="
+                    style="@style/yoloness"
+                    android:id="@+id/buttonequals" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/greenBox4"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="+"
+                    style="@style/yoloness"
+                    android:id="@+id/buttonadd" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="-"
+                    style="@style/yoloness"
+                    android:id="@+id/buttonsub" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="x"
+                    style="@style/yoloness"
+                    android:id="@+id/buttonmul" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:text="÷"
+                    style="@style/yoloness"
+                    android:id="@+id/buttondiv" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

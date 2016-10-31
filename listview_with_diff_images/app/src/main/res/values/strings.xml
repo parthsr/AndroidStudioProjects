@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">listview_with_diff_images</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="titles">
+        <item>Meme1</item>
+        <item>Meme2</item>
+        <item>Meme3</item>
+        <item>Meme4</item>
+        <item>Meme5</item>
+        <item>Meme6</item>
+        <item>Meme7</item>
+        <item>Meme8</item>
+        <item>Meme9</item>
+        <item>Meme10</item>
+
+    </string-array>
+    <string name="hi">hello</string>
+    <string-array name="descriptions">
+        <item>Description1</item>
+        <item>Description2</item>
+        <item>Description3</item>
+        <item>Description4</item>
+        <item>Description5</item>
+        <item>Description6</item>
+        <item>Description7</item>
+        <item>Description8</item>
+        <item>Description9</item>
+        <item>Description10</item>
+
+    </string-array>
+</resources>

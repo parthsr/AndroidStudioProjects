@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Grids</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="names">
+        <item>india</item>
+        <item>australia</item>
+        <item>america</item>
+        <item>zimbabwe</item>
+        <item>sri lanka</item>
+        <item>bangladesh</item>
+        <item>pakistan</item>
+        <item>afghanistan</item>
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_my_dailogue">MyDailogue</string>
+</resources>

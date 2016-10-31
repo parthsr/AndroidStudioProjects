@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">GridView</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="flags">
+        <item>can</item>
+        <item>gt</item>
+        <item>hi</item>
+        <item>ho</item>
+        <item>hy</item>
+        <item>images</item>
+        <item>in</item>
+        <item>us</item>
+    </string-array>
+</resources>
